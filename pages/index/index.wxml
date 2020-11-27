@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="page-section-title">富通水表信息数据采集测试版</view>
+  <view class="page-section-title">MQTT消息推送测试版</view>
 </view>
 <view class="page-body">
   <view class="btn-area" id="buttonContainer">
