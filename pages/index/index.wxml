@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="page-section-title">富通水表信息数据采集测试版</view>
+</view>
+<view class="page-body">
+  <view class="btn-area" id="buttonContainer">
+    <view class="button-sp-area">
+      <button type="primary" plain="true" bindtap="connectMqtt">订阅</button>
+      <input  class="editInport" bindinput="getMsg" auto-focus placeholder="输入发送内容"/>
+      <button type="default" plain="true" bindtap="publishMqtt">推送</button>
+      <input  class="editInport" value="{{revmsg}}" auto-focus placeholder="接收消息"/>
+
+    </view>
+  </view>
+</view>

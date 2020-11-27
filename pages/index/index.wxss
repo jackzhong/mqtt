@@ -1,0 +1,48 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+button{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+.button-sp-area{
+  margin: 0 auto;
+  width: 60%;
+}
+.mini-btn{
+  margin-right: 10rpx;
+}
+.editInport{
+  width: 200px;
+  padding: 0 25px;
+  height: 48px;
+  border: 2px solid #f2f2f2;
+  background: #f6f6f6;
+  color: #202124;
+  font-size: 14px;
+  line-height: 48px;
+  border-radius: 15px;
+}
+.container{
+  font-size: large;
+  color:rgb(6, 114, 33);
+}
